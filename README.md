@@ -39,14 +39,24 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
+This week I learned about server-side routing with express and express middleware. Server-side routing allows us to divide our endpoints into separate routes. Then we would import our routes into our index.js file. This allows us to make our code more manageable and cleaner. Express middleware allows us to add functions that are reusable and flexible. These functions can do things like handle logic or errors. We can use these functions in our endpoints and it will make our code cleaner and more manageable since we don’t have to write the same code multiple times for different endpoints. 
+
 
 - [ ] Describe Middleware?
+Express middleware allows us to add functions that are reusable and flexible. These functions can do things like handle logic or errors. We can use these functions in our endpoints and it will make our code cleaner and more manageable since we don’t have to write the same code multiple times for different endpoints.
+
 
 - [ ] Describe a Resource?
+A resource is any content. Such as Text Files, Html Pages, Images, Videos or Business Data. It is provided by the server to the client.
+
 
 - [ ] What can the API return to help clients know if a request was successful?
+Well beside returning the requested data. It can also return status codes one of which is status code 200 which means OK or that the request was successful and no errors occurred with the request or the server.
+
 
 - [ ] How can we partition our application into sub-applications?
+I am assuming that this question is asking about server-side routing with express. If so then server-side routing allows us to divide our endpoints into separate routes. Then we would import our routes into our index.js file. This allows us to make our code more manageable and cleaner.
+
 
 ## Minimum Viable Product
 
